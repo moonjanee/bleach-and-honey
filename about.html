@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABOUT & CONTACT — BLEACH & HONEY</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&family=Silkscreen&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-honey">
+
+  <!-- TOP NAVIGATION BAR -->
+  <header class="site-header">
+    <div class="logo-container">
+      <a href="index.html" class="brand-logo">BLEACH & HONEY</a>
+      <span class="brand-sub">ART & FLASH BY BLEACHJANE</span>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">ARTWORK</a></li>
+        <li><a href="tattoo-flash.html" class="nav-flash-link">[ TATTOO FLASH ]</a></li>
+        <li><a href="about.html" class="active">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ABOUT & BIOGRAPHY SECTION -->
+  <main class="about-container">
+    
+    <!-- Hero / Intro Section -->
+    <section class="about-hero">
+      <div class="about-image-wrap">
+        <img src="images/about/aboutme.png" alt="Bleachjane Profile / Studio Photo">
+      </div>
+
+      <div class="about-bio">
+        <span class="pixel-tag">// ARTIST STATEMENT</span>
+        <h1 class="about-heading">BLEACHJANE</h1>
+        <p class="about-subtext">Visual artist & prospective tattoo apprentice based in South Africa.</p>
+        
+        <div class="bio-body">
+          <p>
+            Bleach & Honey represents an exploration between opposing textures; raw fine-line graphite, dark flash imagery, organic figure studies and chrome line work.
+          </p>
+          <p>
+            Focused on fine-line ink, classical anatomy and custom flash sheets. Each piece balances delicate line work with stark and tactile contrast.
+          </p>
+          <p>
+            Exploring dark flash, fine-line graphite and anatomy studies with the goal of joining a shop as an apprentice.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & BOOKING INFO -->
+    <section id="contact" class="about-contact-grid">
+      
+      <div class="contact-box">
+        <span class="pixel-tag">// APPRENTICESHIP & FLASH INQUIRIES</span>
+        <h2>GET IN TOUCH</h2>
+        <p>For custom flash design inquiries, artwork requests or apprenticeship portfolio reviews, feel free to reach out directly.</p>
+        
+        <ul class="contact-list">
+          <li>
+            <span class="pixel-meta">EMAIL</span>
+            <a href="mailto:jane.edelman111@gmail.com" class="contact-link">jane.edelman111@gmail.com ➔</a>
+          </li>
+          <li>
+            <span class="pixel-meta">INSTAGRAM</span>
+            <a href="https://instagram.com/bleachjanee" target="_blank" rel="noopener" class="contact-link">@bleachjanee ➔</a>
+          </li>
+          <li>
+            <span class="pixel-meta">PHONE / WHATSAPP</span>
+            <a href="https://wa.me/27619220460" target="_blank" rel="noopener" class="contact-link">+27 61 922 0460 ➔</a>
+          </li>
+          <li>
+            <span class="pixel-meta">LOCATION</span>
+            <span class="contact-text">Johannesburg, South Africa</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <span class="pixel-tag">// FLASH RULES & POLICIES</span>
+        <h2>FLASH BOOKINGS</h2>
+        <ul class="policy-list">
+          <li><strong>01 // Original Flash:</strong> Designs marked as flash sheets are open for tattooing and apprenticeship reference.</li>
+          <li><strong>02 // Custom Concepts:</strong> Custom artwork open for consultation depending on project scope.</li>
+          <li><strong>03 // Prints & Original Work:</strong> Inquire directly via email or Instagram DM.</li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-left">
+      <span class="pixel-text">BLEACH & HONEY © 2026</span>
+    </div>
+    <div class="footer-right">
+      <a href="https://instagram.com/bleachjanee" target="_blank" rel="noopener">INSTAGRAM</a>
+      <button id="contact-modal-trigger" class="footer-contact-btn">CONTACT</button>
+    </div>
+  </footer>
+
+  <!-- CONTACT POPUP MODAL -->
+  <div id="contact-modal" class="lightbox-overlay" aria-hidden="true">
+    <div class="contact-modal-box">
+      <button class="lightbox-close" id="contact-modal-close" aria-label="Close modal">&times;</button>
+      <span class="pixel-tag">// GET IN TOUCH</span>
+      <h2 class="contact-modal-heading">CONTACT BLEACHJANE</h2>
+      <p class="contact-modal-sub">For custom flash, artwork inquiries or apprenticeship reviews:</p>
+      
+      <div class="modal-contact-details">
+        <div class="detail-item">
+          <span class="pixel-meta">EMAIL</span>
+          <a href="mailto:jane.edelman111@gmail.com" class="contact-modal-link">jane.edelman111@gmail.com ➔</a>
+        </div>
+        <div class="detail-item">
+          <span class="pixel-meta">INSTAGRAM DM</span>
+          <a href="https://instagram.com/bleachjanee" target="_blank" rel="noopener" class="contact-modal-link">@bleachjanee ➔</a>
+        </div>
+        <div class="detail-item">
+          <span class="pixel-meta">PHONE / WHATSAPP</span>
+          <a href="https://wa.me/27619220460" target="_blank" rel="noopener" class="contact-modal-link">+27 61 922 0460 ➔</a>
+        </div>
+        <div class="detail-item">
+          <span class="pixel-meta">LOCATION</span>
+          <span class="pixel-text">Johannesburg, South Africa</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="about-script.js"></script>
+
+</body>
+</html>
